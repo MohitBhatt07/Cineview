@@ -13,8 +13,8 @@ public class CineviewApplication {
 		SpringApplication.run(CineviewApplication.class, args);
 	}
 
-	// @GetMapping
-	// public String apiRoot(){
-		
-	// }
+	@GetMapping("/")
+	public String apiRoot(){
+		return "HELLO WORLD";
+	}
 }
