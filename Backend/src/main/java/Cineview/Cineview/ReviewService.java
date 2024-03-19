@@ -13,8 +13,10 @@ public class ReviewService {
   
   @Autowired
   ReviewRepository reviewRepo;
+
   @Autowired
   MongoTemplate mongoTemplate;
+  
   public List<Review> getReviews(){
     return reviewRepo.findAll();
   }
