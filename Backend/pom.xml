@@ -8,7 +8,7 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>cineview</groupId>
+	<groupId>com.cineview</groupId>
 	<artifactId>cineview</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cineview</name>
@@ -77,7 +77,7 @@
                     <ports>
                         <port>8080</port>
                     </ports>
-										<mainClass>com.cineview.CineviewApplication.class</mainClass>
+										<mainClass>com.cineview.cineview.CineviewApplication.class</mainClass>
                     <format>OCI</format>
                 </container>
             </configuration>

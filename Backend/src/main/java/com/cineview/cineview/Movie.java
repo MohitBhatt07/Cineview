@@ -1,4 +1,4 @@
-package Cineview.Cineview;
+package com.cineview.cineview;
 
 import java.util.List;
 
