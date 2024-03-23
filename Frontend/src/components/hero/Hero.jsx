@@ -8,7 +8,6 @@ import Button from 'react-bootstrap/Button';
 
 
 const Hero = ({movies}) => {
-    console.log(movies);
     const navigate = useNavigate();
 
     function reviews(movieId)
