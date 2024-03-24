@@ -56,6 +56,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.2.3</version>
 				<configuration>
 					<excludes>
 						<exclude>
@@ -65,7 +66,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
             <groupId>com.google.cloud.tools</groupId>
             <artifactId>jib-maven-plugin</artifactId>
             <version>3.2.1</version>
@@ -81,7 +82,7 @@
                     <format>OCI</format>
                 </container>
             </configuration>
-        </plugin>
+        </plugin> -->
 		</plugins>
 	</build>
 
