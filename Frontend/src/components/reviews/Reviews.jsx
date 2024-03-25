@@ -27,7 +27,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
 
             const updatedReviews = [...reviews, {body:rev.value}];
     
-            rev.value = "";
+            rev.value =  "";
     
             setReviews(updatedReviews);
         }
